@@ -19,7 +19,7 @@ public class EmployeeController {
 	}
 	@GetMapping("welcome/{name}")
 	
-	public ResponseEntity<String> getEmployee(@PathVariable("name")String name)
+	public ResponseEntity<String> getEmployee(@PathVariable("name") String name)
 	{
 		return new ResponseEntity<String>("welcome "+name,HttpStatus.OK);
 		
