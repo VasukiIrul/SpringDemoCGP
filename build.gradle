@@ -2,7 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.6.7'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
-	apply plugin: 'war'
+	id 'war'
 }
 
 group = 'com.capg'
